@@ -1,0 +1,27 @@
+{
+    "name": "graywings/array_capture",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Graywings\\ArrayCapture\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Graywings\\ArrayCapture\\Tests\\Units\\": "tests/units",
+            "Graywings\\ArrayCapture\\Tests\\Features\\": "tests/features"
+        }
+    },
+    "authors": [
+        {
+            "name": "tterashima",
+            "email": "taira.terashima@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
